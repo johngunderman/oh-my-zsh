@@ -1,4 +1,4 @@
-PROMPT='%0(?.'%{$fg[green]%}'.'%{$fg[red]%}'%B%?%b )%{$fg[cyan]%}[%!] %n@%m:%d%{$reset_color%}
+PROMPT='%0(?.'%{$fg[green]%}'.'%{$fg[red]%}'%B%?%b )%{$fg[cyan]%}[%!] %n@%{$fg_bold[magenta]%}%m%{$reset_color%}%{$fg[cyan]%}:%d%{$reset_color%}
 %{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
 RPROMPT='[%t :: %D ]'
 
